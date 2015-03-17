@@ -26,3 +26,28 @@
 *.exe
 *.out
 *.app
+
+# Apple Generated Files
+xcuserdata/
+*.xcodeproj
+.DS_Store
+
+# CMake files
+CMakeFiles/
+*CMakeFiles/*
+CMakeCache.txt
+*Makefile
+*cmake_install.cmake
+*.swp
+build/
+build/*
+
+#CLion generated directory
+.idea/
+
+# Protobuf generated files
+*.pb.cc
+*.pb.h
+
+# Sqlite Databases
+*.db
